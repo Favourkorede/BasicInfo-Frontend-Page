@@ -1,0 +1,47 @@
+!DOCTYPE html>
+<<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="data-item" data-testid="slackUserName">
+                 <h1>FavourAyeni</h1>
+                 <h4>Personal Profile</h4>
+            </div>
+       </header>
+    </div>
+    <div class="image-container">
+        <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RP3XSVMJ-ce1f320b64ad-512" width="400px" height="400px" data-testid="slackDisplayImage" alt=’FavourAyeni">
+        <h2 class="centered">Frontend Intern at Zuri</h2>
+        <div>
+            <li class="data-item" data-testid="currentDayOfTheWeek">
+                <label>Current Day of the Week:</label>
+                <span id="CurrentDay"></span>
+            </li>
+             <li class="data-item" data-testid="currentUTCTime">
+                <label>Current UTC Time:</label>
+                <span id="CurrentUTCtime"></span>
+             </li>
+            <li class="data-item" data-testid="myTrack">
+                <label>Track:</label>
+                <span id="myTrack"> Frontend</span>
+            </li>
+        </div>
+    </div>
+        
+</body>
+<footer>
+    <nav>
+        <div class="github-link" data-testid="githubURL">
+            <button>Just a click away to the<a href="https://github.com/Favourkorede/BasicInfo-Frontend-Page.git">GitHub</a>Repository</button> 
+        </div>
+    </nav>
+</footer>
+</html>
+<script src="./script.js"></script>
+
